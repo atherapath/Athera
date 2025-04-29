@@ -52,6 +52,7 @@
                 <p>A reflection on their symbolic and historical significance.</p>
             </article>
         </section>
+        <div id="blog-content"></div>
     </main>
     <footer>
     <p>&copy; 2025 Athera. All rights reserved.</p>
@@ -60,5 +61,31 @@
         <button>Pay with HandCash</button>
     </a>
 </footer>
+    <script>
+    const posts = [
+        {
+            title: "Technology Getting Better – Get Over Yourself, AI",
+            author: "Spencer",
+            content: `
+                <p>As humanity hurtles forward into the glittering frontier...</p>
+                <h3>Planned Obsolescence...</h3>
+                <p>Take the smartphone in your pocket...</p>
+            `,
+        },
+        // Add more posts here as needed.
+    ];
+
+    const blogContent = document.getElementById("blog-content");
+    posts.forEach(post => {
+        const article = document.createElement("article");
+        article.innerHTML = `
+            <h2>${post.title}</h2>
+            <p><strong>By ${post.author}</strong></p>
+            ${post.content}
+        `;
+        blogContent.appendChild(article);
+    });
+</script>
+
 </body>
 </html>
