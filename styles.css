@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    justify-content: center;
+    background: radial-gradient(at bottom, rgba(61, 64, 25, 1) 10%, black 90%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    margin: 10px;
+    font-size: 16px;
+    font-style: italic; 
+    font-weight: bold; 
+}
+
+
+
+.container {
+    text-align: center;
+    border: 5px solid #3D4019;
+    height: 587px; 
+    width: 300px;
+    padding: 5px 5px;
+}
+
+.athera-logo {
+    transition: all 1s ease-in-out;
+    cursor: pointer;
+}
+
+.athera-logo:hover {
+    box-shadow:5px 0 25px rgba(0, 255, 0, 1);    
+}
+
+.nav-button {
+  display: inline-block;
+  background-color: #635640;
+  color: #5AEC2A;
+  text-decoration: none;
+  padding: 17px 5px;
+  border: 5px solid #3D4019;
+  cursor: pointer;
+  
+  transition: all 1s ease-in-out;
+ width: 270px;
+}
+
+.nav-button:hover,
+.nav-button.active {
+  background-color: black;
+  color: white;
+  box-shadow:5px 0 25px rgba(0, 255, 0, 1);
+}
+
+.main-image {
+    border: 5px solid #3D4019;
+    width: 995px;
+}
