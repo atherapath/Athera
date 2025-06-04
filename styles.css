@@ -11,14 +11,12 @@ body {
     font-weight: bold; 
 }
 
-
-
 .container {
-    text-align: center;
-    border: 5px solid #3D4019;
-    height: 587px; 
-    width: 300px;
-    padding: 5px 5px;
+	text-align: center;
+	border: 5px solid #3D4019;
+	height: 587px; 
+	width: 300px;
+	padding: 5px 5px;
 }
 
 .athera-logo {
@@ -30,6 +28,25 @@ body {
     box-shadow:5px 0 25px rgba(0, 255, 0, 1);    
 }
 
+.nav-button-top {
+	display: inline-block;
+  background-color: #635640;
+  color: #5AEC2A;
+  text-decoration: none;
+  padding: 17px 5px;
+  border: 5px solid #3D4019;
+  cursor: pointer;
+  transition: all 1s ease-in-out;
+
+}
+
+.nav-button-top:hover,
+.nav-button-top.active {
+  background-color: black;
+  color: white;
+  box-shadow:5px 0 25px rgba(0, 255, 0, 1);
+}
+
 .nav-button {
   display: inline-block;
   background-color: #635640;
@@ -38,9 +55,8 @@ body {
   padding: 17px 5px;
   border: 5px solid #3D4019;
   cursor: pointer;
-  
   transition: all 1s ease-in-out;
- width: 270px;
+	width: 90%;
 }
 
 .nav-button:hover,
